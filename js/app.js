@@ -67,7 +67,7 @@ if (!useriscorrect) {
     alert('Great Job on the guess')
 }
 
-
+function faveFood(){
 let favefood = ['teriyaki', 'pizza', 'chipotle', 'tacos'];
 let foodguess = 6;
 let correct = false;
@@ -77,7 +77,7 @@ while(foodguess > 0 && correct == false) {
   let userfood = prompt('What is one of my favorite Foods?');
 
   
-  for (let i = 0; i < foodguess.length; i++) {
+  for (let i = 0; i <= foodguess.length; i++) {
     if (userfood.toLowerCase() == favefood[i].toLowerCase()) {
       alert('thats correct');
       totalCorrect++;
@@ -86,7 +86,7 @@ while(foodguess > 0 && correct == false) {
     }
   }
 
-  if (!correct) {
+   if (!correct) {
     foodguess--;
     alert('Try Again!');
   }
@@ -98,4 +98,7 @@ if (!correct) {
   alert('Great Job');
 }
 
-alert('Thanks for participating you got ' + totalcorrect + ' Questions right!')
+faveFood()
+
+alert('Thanks for participating you got ' + totalcorrect + ' Questions right!');
+}
