@@ -67,7 +67,7 @@ if (!useriscorrect) {
     alert('Great Job on the guess')
 }
 
-function faveFood(){
+function favoriteFood(){
 let favefood = ['teriyaki', 'pizza', 'chipotle', 'tacos'];
 let foodguess = 6;
 let correct = false;
@@ -98,7 +98,7 @@ if (!correct) {
   alert('Great Job');
 }
 
-faveFood()
+favoriteFood()
 
 alert('Thanks for participating you got ' + totalcorrect + ' Questions right!');
 }
