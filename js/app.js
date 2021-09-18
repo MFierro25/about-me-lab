@@ -1,6 +1,5 @@
 'use strict';
 
-
 let totalcorrect = 0
 let name = prompt('Hello what is your name?')
 
@@ -42,6 +41,8 @@ let schools = prompt('Did i go to over 9 different schools growing up?').toLower
     else if (schools === 'no' || schools === 'n')
         alert('Incorrect, i went to 10 different schools growing up')
 
+<<<<<<< HEAD
+=======
 let age= ('29')
 let numbguess = 4;
 let ageguess = '' 
@@ -68,10 +69,23 @@ if (!useriscorrect) {
 }
 
 function favoriteFood(){
+>>>>>>> 6ae15cbb63917dab0e7287837706a212c92bf3e8
 let favefood = ['teriyaki', 'pizza', 'chipotle', 'tacos'];
 let foodguess = 6;
 let correct = false;
 
+<<<<<<< HEAD
+let userfood = prompt('What is one of my favorite Foods?'); {
+for (let i =0; i < foodguess; i++) {
+     if (userfood.toLowerCase() === favefood[i].toLowerCase()) {
+        alert('Thats Correct!');
+        totalcorrect++;
+        correct = true;
+        break;
+    }   else if (userfood.toLowerCase() != favefood[i].toLowerCase()); {
+         alert('That is incorrect try again!');
+     }
+=======
 while(foodguess > 0 && correct == false) {  
 
   let userfood = prompt('What is one of my favorite Foods?');
@@ -90,12 +104,8 @@ while(foodguess > 0 && correct == false) {
     foodguess--;
     alert('Try Again!');
   }
+>>>>>>> 6ae15cbb63917dab0e7287837706a212c92bf3e8
 }
-
-if (!correct) {
-  alert('You ran out of guesses', favefood);
-} else {
-  alert('Great Job');
 }
 
 favoriteFood()

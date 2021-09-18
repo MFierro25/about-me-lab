@@ -1,28 +1,38 @@
 <style>
 
-h1 {
-    font-family:'Verdana';
-    
+
+.navigation {
+    font-family: cambria;
+    font-size: 20px; 
 }
 
+h1 {
+    text-align: center;
+    font-family: verdana;
+}
 .bio {
     font-size: large;
+    background-color:rgb(8, 187, 187)
     
 }
 
 .education {
     font-size: large;
-    
+    display:inline-block;
 }
 
 .exp {
     font-size: large;
-    
+    display:inline-block;
+
 }
 
 .goals {
     font-size: large;
-    
+}
+
+.top10 {
+    text-align:center;
 }
 
 </style>
