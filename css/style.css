@@ -2,9 +2,14 @@
 
 
 .navigation {
+<<<<<<< HEAD
     font-size: 2050px; 
     font-family: cambria;
     color: red  
+=======
+    font-family: cambria;
+    font-size: 20px; 
+>>>>>>> 628736616ba22e68c3158fb251725dccc9908be8
 }
 
 h1 {
@@ -14,38 +19,54 @@ h1 {
 .bio {
     font-size: large;
     background-color:rgb(8, 187, 187)
+<<<<<<< HEAD
     
+=======
+>>>>>>> 628736616ba22e68c3158fb251725dccc9908be8
     
 }
 
 .education {
     font-size: large;
     display:inline-block;
+<<<<<<< HEAD
     border: 5px;
     border-style: groove;
     margin: 5px auto 10px auto;
     text-align: center;
+=======
+>>>>>>> 628736616ba22e68c3158fb251725dccc9908be8
 }
 
 .exp {
     font-size: large;
     display:inline-block;
+<<<<<<< HEAD
     border: 5px;
     border-style: groove;
     margin: 5px auto 10px auto;
     text-align: center;
+=======
+
+>>>>>>> 628736616ba22e68c3158fb251725dccc9908be8
 }
 
 .goals {
     font-size: large;
+<<<<<<< HEAD
     background-color:rgb(8, 187, 187)
 
+=======
+>>>>>>> 628736616ba22e68c3158fb251725dccc9908be8
 }
 
 .top10 {
     text-align:center;
+<<<<<<< HEAD
     width:fit-content;
     margin: 5px auto 10px auto;
+=======
+>>>>>>> 628736616ba22e68c3158fb251725dccc9908be8
 }
 
 </style>
