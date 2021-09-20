@@ -41,10 +41,40 @@ let schools = prompt('Did i go to over 9 different schools growing up?').toLower
     else if (schools === 'no' || schools === 'n')
         alert('Incorrect, i went to 10 different schools growing up')
 
+<<<<<<< HEAD
+=======
+let age= ('29')
+let numbguess = 4;
+let ageguess = '' 
+let useriscorrect = false;	
+
+for (let i = 0; i < numbguess; i++) {
+    ageguess = prompt('How old do you think i am?')
+    if (ageguess == age) {
+        useriscorrect = true
+        alert('Correct! i am 29!')
+        totalcorrect ++;
+        break;
+    } else if(ageguess > '29') {
+        alert('Guess Lower Next Time!')
+    } else if(ageguess < '29') {
+        alert('Guess Higher Next Time!')
+    }
+}
+
+if (!useriscorrect) {
+    alert('You are out of guesses')
+} else {
+    alert('Great Job on the guess')
+}
+
+function favoriteFood(){
+>>>>>>> 6ae15cbb63917dab0e7287837706a212c92bf3e8
 let favefood = ['teriyaki', 'pizza', 'chipotle', 'tacos'];
 let foodguess = 6;
 let correct = false;
 
+<<<<<<< HEAD
 let userfood = prompt('What is one of my favorite Foods?'); {
 for (let i =0; i < foodguess; i++) {
      if (userfood.toLowerCase() === favefood[i].toLowerCase()) {
@@ -55,7 +85,30 @@ for (let i =0; i < foodguess; i++) {
     }   else if (userfood.toLowerCase() != favefood[i].toLowerCase()); {
          alert('That is incorrect try again!');
      }
+=======
+while(foodguess > 0 && correct == false) {  
+
+  let userfood = prompt('What is one of my favorite Foods?');
+
+  
+  for (let i = 0; i <= foodguess.length; i++) {
+    if (userfood.toLowerCase() == favefood[i].toLowerCase()) {
+      alert('thats correct');
+      totalCorrect++;
+      correct = true;
+      break;
+    }
+  }
+
+   if (!correct) {
+    foodguess--;
+    alert('Try Again!');
+  }
+>>>>>>> 6ae15cbb63917dab0e7287837706a212c92bf3e8
 }
 }
 
-alert('Thanks for participating you got ' + totalcorrect + ' Questions right!')
+favoriteFood()
+
+alert('Thanks for participating you got ' + totalcorrect + ' Questions right!');
+}

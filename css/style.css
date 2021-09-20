@@ -2,8 +2,9 @@
 
 
 .navigation {
+    font-size: 2050px; 
     font-family: cambria;
-    font-size: 20px; 
+    color: red  
 }
 
 h1 {
@@ -14,25 +15,37 @@ h1 {
     font-size: large;
     background-color:rgb(8, 187, 187)
     
+    
 }
 
 .education {
     font-size: large;
     display:inline-block;
+    border: 5px;
+    border-style: groove;
+    margin: 5px auto 10px auto;
+    text-align: center;
 }
 
 .exp {
     font-size: large;
     display:inline-block;
-
+    border: 5px;
+    border-style: groove;
+    margin: 5px auto 10px auto;
+    text-align: center;
 }
 
 .goals {
     font-size: large;
+    background-color:rgb(8, 187, 187)
+
 }
 
 .top10 {
     text-align:center;
+    width:fit-content;
+    margin: 5px auto 10px auto;
 }
 
 </style>
